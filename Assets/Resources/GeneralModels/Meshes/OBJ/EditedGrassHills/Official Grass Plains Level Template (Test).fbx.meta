@@ -1,0 +1,887 @@
+fileFormatVersion: 2
+guid: fcc0c61ad872acc44b97e2e2c08cddb6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Dark Green Tree_L_Lib
+    100002: Dark Green Tree_proxy
+    100004: Dark Green Tree_proxy.001
+    100006: Dark Green Tree_proxy.002
+    100008: Dark Green Tree_proxy.003
+    100010: Dark Green Tree_proxy.004
+    100012: Dark Green Tree_proxy.005
+    100014: Dark Green Tree_proxy.006
+    100016: Dark Green Tree_proxy.007
+    100018: Dark Green Tree_proxy.008
+    100020: Dark Green Tree_proxy.009
+    100022: Dark Green Tree_proxy.010
+    100024: Dark Green Tree_proxy.011
+    100026: Dark Green Tree_proxy.012
+    100028: Dark Green Tree_proxy.013
+    100030: Dark Green Tree_proxy.014
+    100032: Dark Green Tree_proxy.015
+    100034: Dark Green Tree_proxy.016
+    100036: Green Tree_L_Lib.001
+    100038: Green Tree_proxy
+    100040: Green Tree_proxy.001
+    100042: Green Tree_proxy.002
+    100044: Green Tree_proxy.003
+    100046: Green Tree_proxy.004
+    100048: Green Tree_proxy.005
+    100050: Green Tree_proxy.006
+    100052: Green Tree_proxy.007
+    100054: Green Tree_proxy.008
+    100056: Green Tree_proxy.009
+    100058: Green Tree_proxy.010
+    100060: Green Tree_proxy.011
+    100062: Green Tree_proxy.012
+    100064: Green Tree_proxy.013
+    100066: Green Tree_proxy.014
+    100068: Green Tree_proxy.015
+    100070: Green Tree_proxy.016
+    100072: Level
+    100074: Light Green Tree_L_Lib.002
+    100076: Light Green Tree_proxy
+    100078: Light Green Tree_proxy.001
+    100080: Light Green Tree_proxy.002
+    100082: Light Green Tree_proxy.003
+    100084: Light Green Tree_proxy.004
+    100086: Light Green Tree_proxy.005
+    100088: Light Green Tree_proxy.006
+    100090: Light Green Tree_proxy.007
+    100092: Light Green Tree_proxy.008
+    100094: Light Green Tree_proxy.009
+    100096: Light Green Tree_proxy.010
+    100098: Light Green Tree_proxy.011
+    100100: Light Green Tree_proxy.012
+    100102: Light Green Tree_proxy.013
+    100104: Light Green Tree_proxy.014
+    100106: Light Green Tree_proxy.015
+    100108: Light Green Tree_proxy.016
+    100110: Light Green Tree_proxy.017
+    100112: //RootNode
+    100114: Poly Bush_L_Lib.004
+    100116: Poly Bush_proxy
+    100118: Poly Bush_proxy.001
+    100120: Poly Bush_proxy.002
+    100122: Poly Bush_proxy.003
+    100124: Poly Bush_proxy.004
+    100126: Poly Bush_proxy.005
+    100128: Poly Bush_proxy.006
+    100130: Poly Bush_proxy.007
+    100132: Poly Bush_proxy.008
+    100134: Poly Bush_proxy.009
+    100136: Poly Bush_proxy.010
+    100138: Poly Bush_proxy.011
+    100140: Poly Bush_proxy.012
+    100142: Poly Bush_proxy.013
+    100144: Poly Bush_proxy.014
+    100146: Poly Bush_proxy.015
+    100148: Poly Bush_proxy.016
+    100150: Poly Bush_proxy.017
+    100152: Poly Bush_proxy.018
+    100154: Poly Bush_proxy.019
+    100156: Poly Bush_proxy.020
+    100158: Poly Bush_proxy.021
+    100160: Poly Bush_proxy.022
+    100162: Poly Bush_proxy.023
+    100164: Poly Bush_proxy.024
+    100166: Poly Bush_proxy.025
+    100168: Poly Bush_proxy.026
+    100170: Poly Bush_proxy.027
+    100172: Poly Bush_proxy.028
+    100174: Poly Bush_proxy.029
+    100176: Poly Bush_proxy.030
+    100178: Poly Bush_proxy.031
+    100180: Poly Bush_proxy.032
+    100182: Poly Bush_proxy.033
+    100184: Poly Bush_proxy.034
+    100186: Poly Bush_proxy.035
+    100188: Poly Bush_proxy.036
+    100190: Poly Bush_proxy.037
+    100192: Poly Bush_proxy.038
+    100194: Poly Bush_proxy.039
+    100196: Poly Bush_proxy.040
+    100198: Poly Bush_proxy.041
+    100200: Poly Bush_proxy.042
+    100202: Poly Bush_proxy.043
+    100204: Poly Bush_proxy.044
+    100206: Poly Bush_proxy.045
+    100208: Poly Bush_proxy.046
+    100210: Poly Bush_proxy.047
+    100212: Poly Bush_proxy.048
+    100214: Poly Bush_proxy.049
+    100216: Poly Bush_proxy.050
+    100218: Poly Bush_proxy.051
+    100220: Poly Bush_proxy.052
+    100222: Poly Bush_proxy.053
+    100224: Poly Bush_proxy.054
+    100226: Poly Bush_proxy.055
+    100228: Poly Bush_proxy.056
+    100230: Poly Bush_proxy.057
+    100232: Poly Bush_proxy.058
+    100234: Poly Bush_proxy.059
+    100236: Poly Bush_proxy.060
+    100238: Poly Bush_proxy.061
+    100240: Poly Bush_proxy.062
+    100242: Poly Bush_proxy.063
+    100244: Poly Bush_proxy.064
+    100246: Poly Bush_proxy.065
+    100248: Poly Bush_proxy.066
+    100250: Poly Bush_proxy.067
+    100252: Poly Bush_proxy.068
+    100254: Poly Bush_proxy.069
+    100256: Poly Bush_proxy.070
+    100258: Poly Bush_proxy.071
+    100260: Poly Bush_proxy.072
+    100262: Poly Bush_proxy.073
+    100264: Poly Bush_proxy.074
+    100266: Poly Bush_proxy.075
+    100268: Poly Bush_proxy.076
+    100270: Poly Bush_proxy.077
+    100272: Poly Bush_proxy.078
+    100274: Poly Bush_proxy.079
+    100276: Poly Bush_proxy.080
+    100278: Poly Bush_proxy.081
+    100280: Poly Bush_proxy.082
+    100282: Poly Bush_proxy.083
+    100284: Poly Bush_proxy.084
+    100286: Poly Bush_proxy.085
+    100288: Poly Bush_proxy.086
+    100290: Poly Bush_proxy.087
+    100292: Poly Bush_proxy.088
+    100294: Poly Bush_proxy.089
+    100296: Poly Bush_proxy.090
+    100298: Poly Bush_proxy.091
+    100300: Poly Bush_proxy.092
+    100302: Poly Bush_proxy.093
+    100304: Poly Bush_proxy.094
+    100306: Poly Bush_proxy.095
+    100308: Poly Bush_proxy.096
+    100310: Poly Bush_proxy.097
+    100312: Poly Bush_proxy.098
+    100314: Poly Bush_proxy.099
+    100316: Template Assets
+    400000: Dark Green Tree_L_Lib
+    400002: Dark Green Tree_proxy
+    400004: Dark Green Tree_proxy.001
+    400006: Dark Green Tree_proxy.002
+    400008: Dark Green Tree_proxy.003
+    400010: Dark Green Tree_proxy.004
+    400012: Dark Green Tree_proxy.005
+    400014: Dark Green Tree_proxy.006
+    400016: Dark Green Tree_proxy.007
+    400018: Dark Green Tree_proxy.008
+    400020: Dark Green Tree_proxy.009
+    400022: Dark Green Tree_proxy.010
+    400024: Dark Green Tree_proxy.011
+    400026: Dark Green Tree_proxy.012
+    400028: Dark Green Tree_proxy.013
+    400030: Dark Green Tree_proxy.014
+    400032: Dark Green Tree_proxy.015
+    400034: Dark Green Tree_proxy.016
+    400036: Green Tree_L_Lib.001
+    400038: Green Tree_proxy
+    400040: Green Tree_proxy.001
+    400042: Green Tree_proxy.002
+    400044: Green Tree_proxy.003
+    400046: Green Tree_proxy.004
+    400048: Green Tree_proxy.005
+    400050: Green Tree_proxy.006
+    400052: Green Tree_proxy.007
+    400054: Green Tree_proxy.008
+    400056: Green Tree_proxy.009
+    400058: Green Tree_proxy.010
+    400060: Green Tree_proxy.011
+    400062: Green Tree_proxy.012
+    400064: Green Tree_proxy.013
+    400066: Green Tree_proxy.014
+    400068: Green Tree_proxy.015
+    400070: Green Tree_proxy.016
+    400072: Level
+    400074: Light Green Tree_L_Lib.002
+    400076: Light Green Tree_proxy
+    400078: Light Green Tree_proxy.001
+    400080: Light Green Tree_proxy.002
+    400082: Light Green Tree_proxy.003
+    400084: Light Green Tree_proxy.004
+    400086: Light Green Tree_proxy.005
+    400088: Light Green Tree_proxy.006
+    400090: Light Green Tree_proxy.007
+    400092: Light Green Tree_proxy.008
+    400094: Light Green Tree_proxy.009
+    400096: Light Green Tree_proxy.010
+    400098: Light Green Tree_proxy.011
+    400100: Light Green Tree_proxy.012
+    400102: Light Green Tree_proxy.013
+    400104: Light Green Tree_proxy.014
+    400106: Light Green Tree_proxy.015
+    400108: Light Green Tree_proxy.016
+    400110: Light Green Tree_proxy.017
+    400112: //RootNode
+    400114: Poly Bush_L_Lib.004
+    400116: Poly Bush_proxy
+    400118: Poly Bush_proxy.001
+    400120: Poly Bush_proxy.002
+    400122: Poly Bush_proxy.003
+    400124: Poly Bush_proxy.004
+    400126: Poly Bush_proxy.005
+    400128: Poly Bush_proxy.006
+    400130: Poly Bush_proxy.007
+    400132: Poly Bush_proxy.008
+    400134: Poly Bush_proxy.009
+    400136: Poly Bush_proxy.010
+    400138: Poly Bush_proxy.011
+    400140: Poly Bush_proxy.012
+    400142: Poly Bush_proxy.013
+    400144: Poly Bush_proxy.014
+    400146: Poly Bush_proxy.015
+    400148: Poly Bush_proxy.016
+    400150: Poly Bush_proxy.017
+    400152: Poly Bush_proxy.018
+    400154: Poly Bush_proxy.019
+    400156: Poly Bush_proxy.020
+    400158: Poly Bush_proxy.021
+    400160: Poly Bush_proxy.022
+    400162: Poly Bush_proxy.023
+    400164: Poly Bush_proxy.024
+    400166: Poly Bush_proxy.025
+    400168: Poly Bush_proxy.026
+    400170: Poly Bush_proxy.027
+    400172: Poly Bush_proxy.028
+    400174: Poly Bush_proxy.029
+    400176: Poly Bush_proxy.030
+    400178: Poly Bush_proxy.031
+    400180: Poly Bush_proxy.032
+    400182: Poly Bush_proxy.033
+    400184: Poly Bush_proxy.034
+    400186: Poly Bush_proxy.035
+    400188: Poly Bush_proxy.036
+    400190: Poly Bush_proxy.037
+    400192: Poly Bush_proxy.038
+    400194: Poly Bush_proxy.039
+    400196: Poly Bush_proxy.040
+    400198: Poly Bush_proxy.041
+    400200: Poly Bush_proxy.042
+    400202: Poly Bush_proxy.043
+    400204: Poly Bush_proxy.044
+    400206: Poly Bush_proxy.045
+    400208: Poly Bush_proxy.046
+    400210: Poly Bush_proxy.047
+    400212: Poly Bush_proxy.048
+    400214: Poly Bush_proxy.049
+    400216: Poly Bush_proxy.050
+    400218: Poly Bush_proxy.051
+    400220: Poly Bush_proxy.052
+    400222: Poly Bush_proxy.053
+    400224: Poly Bush_proxy.054
+    400226: Poly Bush_proxy.055
+    400228: Poly Bush_proxy.056
+    400230: Poly Bush_proxy.057
+    400232: Poly Bush_proxy.058
+    400234: Poly Bush_proxy.059
+    400236: Poly Bush_proxy.060
+    400238: Poly Bush_proxy.061
+    400240: Poly Bush_proxy.062
+    400242: Poly Bush_proxy.063
+    400244: Poly Bush_proxy.064
+    400246: Poly Bush_proxy.065
+    400248: Poly Bush_proxy.066
+    400250: Poly Bush_proxy.067
+    400252: Poly Bush_proxy.068
+    400254: Poly Bush_proxy.069
+    400256: Poly Bush_proxy.070
+    400258: Poly Bush_proxy.071
+    400260: Poly Bush_proxy.072
+    400262: Poly Bush_proxy.073
+    400264: Poly Bush_proxy.074
+    400266: Poly Bush_proxy.075
+    400268: Poly Bush_proxy.076
+    400270: Poly Bush_proxy.077
+    400272: Poly Bush_proxy.078
+    400274: Poly Bush_proxy.079
+    400276: Poly Bush_proxy.080
+    400278: Poly Bush_proxy.081
+    400280: Poly Bush_proxy.082
+    400282: Poly Bush_proxy.083
+    400284: Poly Bush_proxy.084
+    400286: Poly Bush_proxy.085
+    400288: Poly Bush_proxy.086
+    400290: Poly Bush_proxy.087
+    400292: Poly Bush_proxy.088
+    400294: Poly Bush_proxy.089
+    400296: Poly Bush_proxy.090
+    400298: Poly Bush_proxy.091
+    400300: Poly Bush_proxy.092
+    400302: Poly Bush_proxy.093
+    400304: Poly Bush_proxy.094
+    400306: Poly Bush_proxy.095
+    400308: Poly Bush_proxy.096
+    400310: Poly Bush_proxy.097
+    400312: Poly Bush_proxy.098
+    400314: Poly Bush_proxy.099
+    400316: Template Assets
+    2100000: No Name
+    2300000: Dark Green Tree_L_Lib
+    2300002: Dark Green Tree_proxy
+    2300004: Dark Green Tree_proxy.001
+    2300006: Dark Green Tree_proxy.002
+    2300008: Dark Green Tree_proxy.003
+    2300010: Dark Green Tree_proxy.004
+    2300012: Dark Green Tree_proxy.005
+    2300014: Dark Green Tree_proxy.006
+    2300016: Dark Green Tree_proxy.007
+    2300018: Dark Green Tree_proxy.008
+    2300020: Dark Green Tree_proxy.009
+    2300022: Dark Green Tree_proxy.010
+    2300024: Dark Green Tree_proxy.011
+    2300026: Dark Green Tree_proxy.012
+    2300028: Dark Green Tree_proxy.013
+    2300030: Dark Green Tree_proxy.014
+    2300032: Dark Green Tree_proxy.015
+    2300034: Dark Green Tree_proxy.016
+    2300036: Green Tree_L_Lib.001
+    2300038: Green Tree_proxy
+    2300040: Green Tree_proxy.001
+    2300042: Green Tree_proxy.002
+    2300044: Green Tree_proxy.003
+    2300046: Green Tree_proxy.004
+    2300048: Green Tree_proxy.005
+    2300050: Green Tree_proxy.006
+    2300052: Green Tree_proxy.007
+    2300054: Green Tree_proxy.008
+    2300056: Green Tree_proxy.009
+    2300058: Green Tree_proxy.010
+    2300060: Green Tree_proxy.011
+    2300062: Green Tree_proxy.012
+    2300064: Green Tree_proxy.013
+    2300066: Green Tree_proxy.014
+    2300068: Green Tree_proxy.015
+    2300070: Green Tree_proxy.016
+    2300072: Level
+    2300074: Light Green Tree_L_Lib.002
+    2300076: Light Green Tree_proxy
+    2300078: Light Green Tree_proxy.001
+    2300080: Light Green Tree_proxy.002
+    2300082: Light Green Tree_proxy.003
+    2300084: Light Green Tree_proxy.004
+    2300086: Light Green Tree_proxy.005
+    2300088: Light Green Tree_proxy.006
+    2300090: Light Green Tree_proxy.007
+    2300092: Light Green Tree_proxy.008
+    2300094: Light Green Tree_proxy.009
+    2300096: Light Green Tree_proxy.010
+    2300098: Light Green Tree_proxy.011
+    2300100: Light Green Tree_proxy.012
+    2300102: Light Green Tree_proxy.013
+    2300104: Light Green Tree_proxy.014
+    2300106: Light Green Tree_proxy.015
+    2300108: Light Green Tree_proxy.016
+    2300110: Light Green Tree_proxy.017
+    2300112: Poly Bush_L_Lib.004
+    2300114: Poly Bush_proxy
+    2300116: Poly Bush_proxy.001
+    2300118: Poly Bush_proxy.002
+    2300120: Poly Bush_proxy.003
+    2300122: Poly Bush_proxy.004
+    2300124: Poly Bush_proxy.005
+    2300126: Poly Bush_proxy.006
+    2300128: Poly Bush_proxy.007
+    2300130: Poly Bush_proxy.008
+    2300132: Poly Bush_proxy.009
+    2300134: Poly Bush_proxy.010
+    2300136: Poly Bush_proxy.011
+    2300138: Poly Bush_proxy.012
+    2300140: Poly Bush_proxy.013
+    2300142: Poly Bush_proxy.014
+    2300144: Poly Bush_proxy.015
+    2300146: Poly Bush_proxy.016
+    2300148: Poly Bush_proxy.017
+    2300150: Poly Bush_proxy.018
+    2300152: Poly Bush_proxy.019
+    2300154: Poly Bush_proxy.020
+    2300156: Poly Bush_proxy.021
+    2300158: Poly Bush_proxy.022
+    2300160: Poly Bush_proxy.023
+    2300162: Poly Bush_proxy.024
+    2300164: Poly Bush_proxy.025
+    2300166: Poly Bush_proxy.026
+    2300168: Poly Bush_proxy.027
+    2300170: Poly Bush_proxy.028
+    2300172: Poly Bush_proxy.029
+    2300174: Poly Bush_proxy.030
+    2300176: Poly Bush_proxy.031
+    2300178: Poly Bush_proxy.032
+    2300180: Poly Bush_proxy.033
+    2300182: Poly Bush_proxy.034
+    2300184: Poly Bush_proxy.035
+    2300186: Poly Bush_proxy.036
+    2300188: Poly Bush_proxy.037
+    2300190: Poly Bush_proxy.038
+    2300192: Poly Bush_proxy.039
+    2300194: Poly Bush_proxy.040
+    2300196: Poly Bush_proxy.041
+    2300198: Poly Bush_proxy.042
+    2300200: Poly Bush_proxy.043
+    2300202: Poly Bush_proxy.044
+    2300204: Poly Bush_proxy.045
+    2300206: Poly Bush_proxy.046
+    2300208: Poly Bush_proxy.047
+    2300210: Poly Bush_proxy.048
+    2300212: Poly Bush_proxy.049
+    2300214: Poly Bush_proxy.050
+    2300216: Poly Bush_proxy.051
+    2300218: Poly Bush_proxy.052
+    2300220: Poly Bush_proxy.053
+    2300222: Poly Bush_proxy.054
+    2300224: Poly Bush_proxy.055
+    2300226: Poly Bush_proxy.056
+    2300228: Poly Bush_proxy.057
+    2300230: Poly Bush_proxy.058
+    2300232: Poly Bush_proxy.059
+    2300234: Poly Bush_proxy.060
+    2300236: Poly Bush_proxy.061
+    2300238: Poly Bush_proxy.062
+    2300240: Poly Bush_proxy.063
+    2300242: Poly Bush_proxy.064
+    2300244: Poly Bush_proxy.065
+    2300246: Poly Bush_proxy.066
+    2300248: Poly Bush_proxy.067
+    2300250: Poly Bush_proxy.068
+    2300252: Poly Bush_proxy.069
+    2300254: Poly Bush_proxy.070
+    2300256: Poly Bush_proxy.071
+    2300258: Poly Bush_proxy.072
+    2300260: Poly Bush_proxy.073
+    2300262: Poly Bush_proxy.074
+    2300264: Poly Bush_proxy.075
+    2300266: Poly Bush_proxy.076
+    2300268: Poly Bush_proxy.077
+    2300270: Poly Bush_proxy.078
+    2300272: Poly Bush_proxy.079
+    2300274: Poly Bush_proxy.080
+    2300276: Poly Bush_proxy.081
+    2300278: Poly Bush_proxy.082
+    2300280: Poly Bush_proxy.083
+    2300282: Poly Bush_proxy.084
+    2300284: Poly Bush_proxy.085
+    2300286: Poly Bush_proxy.086
+    2300288: Poly Bush_proxy.087
+    2300290: Poly Bush_proxy.088
+    2300292: Poly Bush_proxy.089
+    2300294: Poly Bush_proxy.090
+    2300296: Poly Bush_proxy.091
+    2300298: Poly Bush_proxy.092
+    2300300: Poly Bush_proxy.093
+    2300302: Poly Bush_proxy.094
+    2300304: Poly Bush_proxy.095
+    2300306: Poly Bush_proxy.096
+    2300308: Poly Bush_proxy.097
+    2300310: Poly Bush_proxy.098
+    2300312: Poly Bush_proxy.099
+    2300314: Template Assets
+    3300000: Dark Green Tree_L_Lib
+    3300002: Dark Green Tree_proxy
+    3300004: Dark Green Tree_proxy.001
+    3300006: Dark Green Tree_proxy.002
+    3300008: Dark Green Tree_proxy.003
+    3300010: Dark Green Tree_proxy.004
+    3300012: Dark Green Tree_proxy.005
+    3300014: Dark Green Tree_proxy.006
+    3300016: Dark Green Tree_proxy.007
+    3300018: Dark Green Tree_proxy.008
+    3300020: Dark Green Tree_proxy.009
+    3300022: Dark Green Tree_proxy.010
+    3300024: Dark Green Tree_proxy.011
+    3300026: Dark Green Tree_proxy.012
+    3300028: Dark Green Tree_proxy.013
+    3300030: Dark Green Tree_proxy.014
+    3300032: Dark Green Tree_proxy.015
+    3300034: Dark Green Tree_proxy.016
+    3300036: Green Tree_L_Lib.001
+    3300038: Green Tree_proxy
+    3300040: Green Tree_proxy.001
+    3300042: Green Tree_proxy.002
+    3300044: Green Tree_proxy.003
+    3300046: Green Tree_proxy.004
+    3300048: Green Tree_proxy.005
+    3300050: Green Tree_proxy.006
+    3300052: Green Tree_proxy.007
+    3300054: Green Tree_proxy.008
+    3300056: Green Tree_proxy.009
+    3300058: Green Tree_proxy.010
+    3300060: Green Tree_proxy.011
+    3300062: Green Tree_proxy.012
+    3300064: Green Tree_proxy.013
+    3300066: Green Tree_proxy.014
+    3300068: Green Tree_proxy.015
+    3300070: Green Tree_proxy.016
+    3300072: Level
+    3300074: Light Green Tree_L_Lib.002
+    3300076: Light Green Tree_proxy
+    3300078: Light Green Tree_proxy.001
+    3300080: Light Green Tree_proxy.002
+    3300082: Light Green Tree_proxy.003
+    3300084: Light Green Tree_proxy.004
+    3300086: Light Green Tree_proxy.005
+    3300088: Light Green Tree_proxy.006
+    3300090: Light Green Tree_proxy.007
+    3300092: Light Green Tree_proxy.008
+    3300094: Light Green Tree_proxy.009
+    3300096: Light Green Tree_proxy.010
+    3300098: Light Green Tree_proxy.011
+    3300100: Light Green Tree_proxy.012
+    3300102: Light Green Tree_proxy.013
+    3300104: Light Green Tree_proxy.014
+    3300106: Light Green Tree_proxy.015
+    3300108: Light Green Tree_proxy.016
+    3300110: Light Green Tree_proxy.017
+    3300112: Poly Bush_L_Lib.004
+    3300114: Poly Bush_proxy
+    3300116: Poly Bush_proxy.001
+    3300118: Poly Bush_proxy.002
+    3300120: Poly Bush_proxy.003
+    3300122: Poly Bush_proxy.004
+    3300124: Poly Bush_proxy.005
+    3300126: Poly Bush_proxy.006
+    3300128: Poly Bush_proxy.007
+    3300130: Poly Bush_proxy.008
+    3300132: Poly Bush_proxy.009
+    3300134: Poly Bush_proxy.010
+    3300136: Poly Bush_proxy.011
+    3300138: Poly Bush_proxy.012
+    3300140: Poly Bush_proxy.013
+    3300142: Poly Bush_proxy.014
+    3300144: Poly Bush_proxy.015
+    3300146: Poly Bush_proxy.016
+    3300148: Poly Bush_proxy.017
+    3300150: Poly Bush_proxy.018
+    3300152: Poly Bush_proxy.019
+    3300154: Poly Bush_proxy.020
+    3300156: Poly Bush_proxy.021
+    3300158: Poly Bush_proxy.022
+    3300160: Poly Bush_proxy.023
+    3300162: Poly Bush_proxy.024
+    3300164: Poly Bush_proxy.025
+    3300166: Poly Bush_proxy.026
+    3300168: Poly Bush_proxy.027
+    3300170: Poly Bush_proxy.028
+    3300172: Poly Bush_proxy.029
+    3300174: Poly Bush_proxy.030
+    3300176: Poly Bush_proxy.031
+    3300178: Poly Bush_proxy.032
+    3300180: Poly Bush_proxy.033
+    3300182: Poly Bush_proxy.034
+    3300184: Poly Bush_proxy.035
+    3300186: Poly Bush_proxy.036
+    3300188: Poly Bush_proxy.037
+    3300190: Poly Bush_proxy.038
+    3300192: Poly Bush_proxy.039
+    3300194: Poly Bush_proxy.040
+    3300196: Poly Bush_proxy.041
+    3300198: Poly Bush_proxy.042
+    3300200: Poly Bush_proxy.043
+    3300202: Poly Bush_proxy.044
+    3300204: Poly Bush_proxy.045
+    3300206: Poly Bush_proxy.046
+    3300208: Poly Bush_proxy.047
+    3300210: Poly Bush_proxy.048
+    3300212: Poly Bush_proxy.049
+    3300214: Poly Bush_proxy.050
+    3300216: Poly Bush_proxy.051
+    3300218: Poly Bush_proxy.052
+    3300220: Poly Bush_proxy.053
+    3300222: Poly Bush_proxy.054
+    3300224: Poly Bush_proxy.055
+    3300226: Poly Bush_proxy.056
+    3300228: Poly Bush_proxy.057
+    3300230: Poly Bush_proxy.058
+    3300232: Poly Bush_proxy.059
+    3300234: Poly Bush_proxy.060
+    3300236: Poly Bush_proxy.061
+    3300238: Poly Bush_proxy.062
+    3300240: Poly Bush_proxy.063
+    3300242: Poly Bush_proxy.064
+    3300244: Poly Bush_proxy.065
+    3300246: Poly Bush_proxy.066
+    3300248: Poly Bush_proxy.067
+    3300250: Poly Bush_proxy.068
+    3300252: Poly Bush_proxy.069
+    3300254: Poly Bush_proxy.070
+    3300256: Poly Bush_proxy.071
+    3300258: Poly Bush_proxy.072
+    3300260: Poly Bush_proxy.073
+    3300262: Poly Bush_proxy.074
+    3300264: Poly Bush_proxy.075
+    3300266: Poly Bush_proxy.076
+    3300268: Poly Bush_proxy.077
+    3300270: Poly Bush_proxy.078
+    3300272: Poly Bush_proxy.079
+    3300274: Poly Bush_proxy.080
+    3300276: Poly Bush_proxy.081
+    3300278: Poly Bush_proxy.082
+    3300280: Poly Bush_proxy.083
+    3300282: Poly Bush_proxy.084
+    3300284: Poly Bush_proxy.085
+    3300286: Poly Bush_proxy.086
+    3300288: Poly Bush_proxy.087
+    3300290: Poly Bush_proxy.088
+    3300292: Poly Bush_proxy.089
+    3300294: Poly Bush_proxy.090
+    3300296: Poly Bush_proxy.091
+    3300298: Poly Bush_proxy.092
+    3300300: Poly Bush_proxy.093
+    3300302: Poly Bush_proxy.094
+    3300304: Poly Bush_proxy.095
+    3300306: Poly Bush_proxy.096
+    3300308: Poly Bush_proxy.097
+    3300310: Poly Bush_proxy.098
+    3300312: Poly Bush_proxy.099
+    3300314: Template Assets
+    4300000: Template Assets
+    4300002: Poly Bush_proxy.098
+    4300004: Light Green Tree_proxy.017
+    4300006: Level
+    4300008: Green Tree_proxy.015
+    4300010: Dark Green Tree_proxy.016
+    6400000: Dark Green Tree_L_Lib
+    6400002: Dark Green Tree_proxy
+    6400004: Dark Green Tree_proxy.001
+    6400006: Dark Green Tree_proxy.002
+    6400008: Dark Green Tree_proxy.003
+    6400010: Dark Green Tree_proxy.004
+    6400012: Dark Green Tree_proxy.005
+    6400014: Dark Green Tree_proxy.006
+    6400016: Dark Green Tree_proxy.007
+    6400018: Dark Green Tree_proxy.008
+    6400020: Dark Green Tree_proxy.009
+    6400022: Dark Green Tree_proxy.010
+    6400024: Dark Green Tree_proxy.011
+    6400026: Dark Green Tree_proxy.012
+    6400028: Dark Green Tree_proxy.013
+    6400030: Dark Green Tree_proxy.014
+    6400032: Dark Green Tree_proxy.015
+    6400034: Dark Green Tree_proxy.016
+    6400036: Green Tree_L_Lib.001
+    6400038: Green Tree_proxy
+    6400040: Green Tree_proxy.001
+    6400042: Green Tree_proxy.002
+    6400044: Green Tree_proxy.003
+    6400046: Green Tree_proxy.004
+    6400048: Green Tree_proxy.005
+    6400050: Green Tree_proxy.006
+    6400052: Green Tree_proxy.007
+    6400054: Green Tree_proxy.008
+    6400056: Green Tree_proxy.009
+    6400058: Green Tree_proxy.010
+    6400060: Green Tree_proxy.011
+    6400062: Green Tree_proxy.012
+    6400064: Green Tree_proxy.013
+    6400066: Green Tree_proxy.014
+    6400068: Green Tree_proxy.015
+    6400070: Green Tree_proxy.016
+    6400072: Level
+    6400074: Light Green Tree_L_Lib.002
+    6400076: Light Green Tree_proxy
+    6400078: Light Green Tree_proxy.001
+    6400080: Light Green Tree_proxy.002
+    6400082: Light Green Tree_proxy.003
+    6400084: Light Green Tree_proxy.004
+    6400086: Light Green Tree_proxy.005
+    6400088: Light Green Tree_proxy.006
+    6400090: Light Green Tree_proxy.007
+    6400092: Light Green Tree_proxy.008
+    6400094: Light Green Tree_proxy.009
+    6400096: Light Green Tree_proxy.010
+    6400098: Light Green Tree_proxy.011
+    6400100: Light Green Tree_proxy.012
+    6400102: Light Green Tree_proxy.013
+    6400104: Light Green Tree_proxy.014
+    6400106: Light Green Tree_proxy.015
+    6400108: Light Green Tree_proxy.016
+    6400110: Light Green Tree_proxy.017
+    6400112: Poly Bush_L_Lib.004
+    6400114: Poly Bush_proxy
+    6400116: Poly Bush_proxy.001
+    6400118: Poly Bush_proxy.002
+    6400120: Poly Bush_proxy.003
+    6400122: Poly Bush_proxy.004
+    6400124: Poly Bush_proxy.005
+    6400126: Poly Bush_proxy.006
+    6400128: Poly Bush_proxy.007
+    6400130: Poly Bush_proxy.008
+    6400132: Poly Bush_proxy.009
+    6400134: Poly Bush_proxy.010
+    6400136: Poly Bush_proxy.011
+    6400138: Poly Bush_proxy.012
+    6400140: Poly Bush_proxy.013
+    6400142: Poly Bush_proxy.014
+    6400144: Poly Bush_proxy.015
+    6400146: Poly Bush_proxy.016
+    6400148: Poly Bush_proxy.017
+    6400150: Poly Bush_proxy.018
+    6400152: Poly Bush_proxy.019
+    6400154: Poly Bush_proxy.020
+    6400156: Poly Bush_proxy.021
+    6400158: Poly Bush_proxy.022
+    6400160: Poly Bush_proxy.023
+    6400162: Poly Bush_proxy.024
+    6400164: Poly Bush_proxy.025
+    6400166: Poly Bush_proxy.026
+    6400168: Poly Bush_proxy.027
+    6400170: Poly Bush_proxy.028
+    6400172: Poly Bush_proxy.029
+    6400174: Poly Bush_proxy.030
+    6400176: Poly Bush_proxy.031
+    6400178: Poly Bush_proxy.032
+    6400180: Poly Bush_proxy.033
+    6400182: Poly Bush_proxy.034
+    6400184: Poly Bush_proxy.035
+    6400186: Poly Bush_proxy.036
+    6400188: Poly Bush_proxy.037
+    6400190: Poly Bush_proxy.038
+    6400192: Poly Bush_proxy.039
+    6400194: Poly Bush_proxy.040
+    6400196: Poly Bush_proxy.041
+    6400198: Poly Bush_proxy.042
+    6400200: Poly Bush_proxy.043
+    6400202: Poly Bush_proxy.044
+    6400204: Poly Bush_proxy.045
+    6400206: Poly Bush_proxy.046
+    6400208: Poly Bush_proxy.047
+    6400210: Poly Bush_proxy.048
+    6400212: Poly Bush_proxy.049
+    6400214: Poly Bush_proxy.050
+    6400216: Poly Bush_proxy.051
+    6400218: Poly Bush_proxy.052
+    6400220: Poly Bush_proxy.053
+    6400222: Poly Bush_proxy.054
+    6400224: Poly Bush_proxy.055
+    6400226: Poly Bush_proxy.056
+    6400228: Poly Bush_proxy.057
+    6400230: Poly Bush_proxy.058
+    6400232: Poly Bush_proxy.059
+    6400234: Poly Bush_proxy.060
+    6400236: Poly Bush_proxy.061
+    6400238: Poly Bush_proxy.062
+    6400240: Poly Bush_proxy.063
+    6400242: Poly Bush_proxy.064
+    6400244: Poly Bush_proxy.065
+    6400246: Poly Bush_proxy.066
+    6400248: Poly Bush_proxy.067
+    6400250: Poly Bush_proxy.068
+    6400252: Poly Bush_proxy.069
+    6400254: Poly Bush_proxy.070
+    6400256: Poly Bush_proxy.071
+    6400258: Poly Bush_proxy.072
+    6400260: Poly Bush_proxy.073
+    6400262: Poly Bush_proxy.074
+    6400264: Poly Bush_proxy.075
+    6400266: Poly Bush_proxy.076
+    6400268: Poly Bush_proxy.077
+    6400270: Poly Bush_proxy.078
+    6400272: Poly Bush_proxy.079
+    6400274: Poly Bush_proxy.080
+    6400276: Poly Bush_proxy.081
+    6400278: Poly Bush_proxy.082
+    6400280: Poly Bush_proxy.083
+    6400282: Poly Bush_proxy.084
+    6400284: Poly Bush_proxy.085
+    6400286: Poly Bush_proxy.086
+    6400288: Poly Bush_proxy.087
+    6400290: Poly Bush_proxy.088
+    6400292: Poly Bush_proxy.089
+    6400294: Poly Bush_proxy.090
+    6400296: Poly Bush_proxy.091
+    6400298: Poly Bush_proxy.092
+    6400300: Poly Bush_proxy.093
+    6400302: Poly Bush_proxy.094
+    6400304: Poly Bush_proxy.095
+    6400306: Poly Bush_proxy.096
+    6400308: Poly Bush_proxy.097
+    6400310: Poly Bush_proxy.098
+    6400312: Poly Bush_proxy.099
+    6400314: Template Assets
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

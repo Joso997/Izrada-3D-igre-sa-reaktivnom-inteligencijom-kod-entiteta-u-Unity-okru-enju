@@ -1,0 +1,26 @@
+{"Level":[
+	{
+		"ID":0,
+		"id_Rule":1,
+		"id_Map":0,
+		"Pass":false,
+		"num_Stars":0,
+		"Score":0.0
+	},
+	{
+		"ID":1,
+		"id_Rule":0,
+		"id_Map":0,
+		"Pass":false,
+		"num_Stars":0,
+		"Score":0.0
+	},
+	{
+		"ID":2,
+		"id_Rule":2,
+		"id_Map":0,
+		"Pass":false,
+		"num_Stars":0,
+		"Score":0.0
+	}
+]}

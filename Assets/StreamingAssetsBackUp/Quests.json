@@ -1,0 +1,20 @@
+[
+	{
+		"id": 0,
+		"title": "First Quest",
+		"description": "First Quest. No.",
+		"activated": false,
+		"completed": false,
+		"type": "general",
+		"code": "q#0"
+	},
+	{
+		"id": 1,
+		"title": "Second Quest",
+		"description": "Second Quest. Yea.",
+		"activated": false,
+		"completed": false,
+		"type": "general",
+		"code": "q#1"
+	}
+]

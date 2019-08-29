@@ -1,0 +1,39 @@
+{"GameRule":[	
+	{
+		"ID": 0,
+		"Time": [{"starttime": 60, "direction": -1}],
+		"Score": [{"xitem": 1}],				
+		"Win": [{"condition": "foundonce", "objective": "2"}],
+		"EndGame": [{"condition": "time", "objective": "0"}],
+		"BonusCondition": [{"condition": "found", "objective": "2"}], 
+		"Bonus":[{"bonustime": 15, "movementspeed": 1.15, "diggingspeed": 1.15}]
+	},
+	{
+		"ID": 1,
+		"Time": [{"starttime": 0, "direction": 0}],
+		"Score": [{"xitem": 1}],				
+		"Win": [{"condition": "foundonce", "objective": "2"}],
+		"EndGame": [{"condition": "foundonce", "objective": "2"}],
+		"BonusCondition": [{"condition": "empty", "objective": "4"}], 
+		"Bonus":[{"bonustime": 30, "movementspeed": 1, "diggingspeed": 1.15}]
+	},
+	{
+		"ID": 2,
+		"Time": [{"starttime": 0, "direction": 1}],
+		"Score": [{"xitem": 1}],				
+		"Win": [{"condition": "time", "objective": "60"}],
+		"EndGame": [{"condition": "foundonce", "objective": "4"}],
+		"BonusCondition": [{"condition": "found", "objective": "2"}], 
+		"Bonus":[{"bonustime": 0, "movementspeed": 1.15, "diggingspeed": 1.15}]
+	},
+	{
+		"ID": 3,
+		"Time": [{"starttime": 0, "direction": 0}],
+		"Score": [{"xitem": 1}],				
+		"Win": [{"condition": "breaknest", "objective": "0"}],
+		"EndGame": [{"condition": "breaknest", "objective": "0"}],
+		"BonusCondition": [{"condition": "found", "objective": "2"}], 
+		"Bonus":[{"bonustime": 0, "movementspeed": 1.15, "diggingspeed": 1.15}]
+	}
+]
+}
