@@ -6,8 +6,8 @@ public class LevelEditor : MonoBehaviour {
     private GameObject Panel;
     private Transform Canvas;
     private LevelController LevelController;
-    private string[] naziv = { "practice", "collect at least 2 points", "collect 4 points inside 60 sec", "break ALL bird's nest" };
-    private string[] ime = {"vježbaj", "skupi najmanje 2 boda", "skupi 4 boda unutar 60 sec", "razbi SVA ptičja gnijezda" };
+    private string[] naziv = { "Practice", "Collect at least 2 points", "Collect 4 points inside 60 sec", "Break ALL bird's nest" };
+    private string[] ime = {"Vježbaj", "Skupi najmanje 2 boda", "Skupi 4 boda unutar 60 sec", "Razbi SVA ptičja gnijezda" };
     void Start()
     {
         LevelController = GameObject.FindGameObjectWithTag("GameController").GetComponent<LevelController>();
@@ -53,6 +53,7 @@ public class LevelEditor : MonoBehaviour {
             {
                 button_script.GetComponent<Image>().color = Color.green;
                 button_script.GetComponent<Transform>().Find("Score").GetComponent<Text>().text = "Highest Score: " + LevelController.database[i].Score.ToString();
+                button_script.GetComponent<Transform>().Find("ScoreHrv").GetComponent<Text>().text = "Najveći Rezultat: " + LevelController.database[i].Score.ToString();
             }               
             width += 160;                  
         }

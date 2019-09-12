@@ -7,14 +7,14 @@ public class PredatorMovement : MonoBehaviour {
     float speed = 4;
     public float Speed{
         get {return speed; }
-        set { speed = value;rotationSpeed = speed / 4; }
+        set { speed = value;rotationSpeed = speed / 1.5f; }
     }
     float rotationSpeed = 1;
     Vector3 forward;
     Vector3 desiredRay;
     Vector3 direction;
     Vector3 diff;
-    int avoid = 0;
+    public int avoid = 0;
     bool pathFound = false;
     int angleRight = 0;
     int angleLeft = 0;
@@ -56,7 +56,7 @@ public class PredatorMovement : MonoBehaviour {
         landed = false;
         localDestination = Vector3.zero;
         speed = 4;
-        rotationSpeed = 1;
+        rotationSpeed = speed / 2f;
         counterOfFrames = 0;
     }
     // Update is called once per frame
@@ -65,15 +65,17 @@ public class PredatorMovement : MonoBehaviour {
              
         if (!landed)
         {
+            Debug.Log(Vector3.Distance(direction, transform.position) <= offsetdistance);
+            Debug.Log(Vector3.Distance(direction, transform.position));
             //AVOIDANCE
             if (AvoidanceRaycast() && !pathFound)
             {
-                //Debug.Log("Avoidance");
+                Debug.Log("Avoidance");
                 avoid = 2;
                 direction = transform.position;
                 //Avoidance
             }
-            else if (Vector3.Distance(direction, transform.position) <= offsetdistance || Vector3.Distance(direction, transform.position) >= (digTransform.localScale.x / 4) || changedMode != lastChangedMode)
+            else if (Vector3.Distance(direction, transform.position) <= offsetdistance || Vector3.Distance(direction, transform.position) >= (digTransform.localScale.x) || changedMode != lastChangedMode)
             {
                 counterOfFrames = 0;
                 avoid = 0;
@@ -81,12 +83,11 @@ public class PredatorMovement : MonoBehaviour {
             //AVOIDANCE END
 
             //CASE SETTINGS
-            if (Vector3.Distance(direction, transform.position) <= offsetdistance || localDestination != diff && avoid == 0 || changedMode != lastChangedMode)
+            if (Vector3.Distance(direction, transform.position) <= offsetdistance || (localDestination != diff && avoid == 0) || changedMode != lastChangedMode)
             {
                 switch (avoid)
                 {
                     case 0:
-                        //Debug.Log("0");
                         direction = localDestination;
                         pathFound = false;
                         destinationSet = false;
@@ -114,6 +115,7 @@ public class PredatorMovement : MonoBehaviour {
                 lastdistance = Vector3.Distance(transform.position, localDestination);
             }
             Move(direction);
+            
             Debug.DrawRay(transform.position, desiredRay, Color.black);
             Debug.DrawRay(transform.position + desiredRay, transform.TransformDirection(forward), Color.black);
             Debug.DrawRay(transform.position, transform.TransformDirection(forward) + transform.up * raySize, Color.cyan);
@@ -123,7 +125,8 @@ public class PredatorMovement : MonoBehaviour {
     protected void Move(Vector3 destination)
     {
         destination = new Vector3(destination.x, thisMinHeight, destination.z);
-        if (!destinationSet)
+        Debug.DrawRay(transform.position, destination - transform.position, Color.magenta);
+        if (!destinationSet || (destinationSet && avoid == 2 && pathFound))
         {
             diff = destination - transform.position;
             destinationSet = true;
@@ -145,7 +148,9 @@ public class PredatorMovement : MonoBehaviour {
         RaycastHit obstacle;
         Debug.DrawRay(transform.position + transform.right * 1, transform.TransformDirection(forward), Color.blue);
         Debug.DrawRay(transform.position - transform.right * 1, transform.TransformDirection(forward), Color.blue);
-        if (Physics.Raycast(transform.position, transform.TransformDirection(forward), out obstacle, raySize) || Physics.Raycast(transform.position + transform.right * 1, transform.TransformDirection(forward), out obstacle, raySize) || Physics.Raycast(transform.position - transform.right * 1, transform.TransformDirection(forward), out obstacle, raySize))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(forward), out obstacle, raySize) || 
+            Physics.Raycast(transform.position + transform.right * 1, transform.TransformDirection(forward), out obstacle, raySize) || 
+            Physics.Raycast(transform.position - transform.right * 1, transform.TransformDirection(forward), out obstacle, raySize))
         {
             return true;
         }
@@ -159,7 +164,7 @@ public class PredatorMovement : MonoBehaviour {
 
     private bool Stuck()
     {
-        if (counterOfFrames > 10)
+        if (counterOfFrames > 20)
             return true;
         else
             return false;
@@ -171,6 +176,7 @@ public class PredatorMovement : MonoBehaviour {
         Vector3 testAroundLeft = transform.forward * (raySize);
         if (pathFound)
         {
+            counterOfFrames = 0;
             pathFound = false;
         }
         RaycastHit pathRight;
@@ -180,44 +186,48 @@ public class PredatorMovement : MonoBehaviour {
         testAroundLeft = Quaternion.Euler(0, angleLeft, 0) * testAroundLeft;//calculation must go in this order ! ! !
         if (angleRight > 90 || angleLeft < -90)
         {
-            if (Physics.Raycast(transform.position, transform.TransformDirection(forward) + transform.up * raySize, out path, raySize + 2))
+            Debug.DrawRay(transform.position, transform.TransformDirection(forward) + (transform.up * (raySize/ 1.6f)), Color.white);
+            Debug.DrawRay(transform.position + transform.TransformDirection(forward) + (transform.up * (raySize/1.6f)), transform.TransformDirection(forward), Color.white);
+            if (Physics.Raycast(transform.position, transform.TransformDirection(forward) + (transform.up * (raySize/ 1.6f)), out path, raySize) || Physics.Raycast(transform.position + transform.TransformDirection(forward) + (transform.up * (raySize/ 1.6f)), transform.TransformDirection(forward), out path, raySize))
             {
-                direction = transform.TransformPoint(-forward / 2) + transform.up;
+                direction = transform.TransformPoint(-forward) + transform.up;
                 pathFound = true;
                 destinationSet = false;
+                offsetdistance = 1.6f;
                 //Debug.Log("BackFlip");
                 //BackFlip
             }
             else
             {
-                direction = transform.TransformPoint(forward + transform.up * (raySize + 3));
+                direction = transform.position + transform.forward * (raySize/1.4f) + transform.up * raySize;
                 pathFound = true;
                 destinationSet = false;
+                offsetdistance = 1f;
                 //Debug.Log("Go Above");
                 //Go Above
             }
         }
         else
         {
-            if (Physics.Raycast(transform.position, testAroundRight, out pathRight, raySize) || Physics.Raycast(transform.position + testAroundRight, transform.TransformDirection(forward), out pathRight, raySize))
+            if (Physics.Raycast(testAroundRight, transform.TransformDirection(forward), out pathRight, raySize) || Physics.Raycast(transform.position + testAroundRight, transform.TransformDirection(forward), out pathRight, raySize))
             {
-
+                Debug.DrawLine(transform.position, transform.position + testAroundRight, Color.green);
                 angleRight += 5;
                 //Debug.Log(angleRight);
             }
-            else
+            else if (pathFound == false)
             {
                 Finalize(testAroundRight, 1);
                 //Debug.Log("Right working");
             }
 
-            if (Physics.Raycast(transform.position, testAroundLeft, out pathLeft, raySize) || Physics.Raycast(transform.position + testAroundLeft, transform.TransformDirection(forward), out pathLeft, raySize))
+            if (Physics.Raycast(testAroundLeft, transform.TransformDirection(forward), out pathRight, raySize) || Physics.Raycast(transform.position + testAroundLeft, transform.TransformDirection(forward), out pathLeft, raySize))
             {
-
+                Debug.DrawLine(transform.position, transform.position + testAroundLeft, Color.yellow);
                 angleLeft -= 5;
                 //Debug.Log(angleLeft);
             }
-            else
+            else if(pathFound == false)
             {
                 Finalize(testAroundLeft, -1);
                 //Debug.Log("Left working");
@@ -228,13 +238,13 @@ public class PredatorMovement : MonoBehaviour {
     void Finalize(Vector3 testAround, int smjer)
     {
         testAround = Quaternion.Euler(0, smjer * 30, 0) * testAround;
-        direction = transform.TransformPoint(testAround);
+        direction = transform.position + testAround;
         pathFound = true;
         destinationSet = false;
-        desiredRay = transform.TransformPoint(testAround);
+        desiredRay = testAround;
         angleRight = 0;
         angleLeft = 0;
-        //offsetdistance = 0.1f;
-        //Debug.Log("Finalize");
+        offsetdistance = 2f;
+        Debug.Log("Finalize");
     }
 }

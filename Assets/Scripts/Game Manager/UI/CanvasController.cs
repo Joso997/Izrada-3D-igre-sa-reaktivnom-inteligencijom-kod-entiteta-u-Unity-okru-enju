@@ -15,6 +15,7 @@ using UnityEngine.UI;
     private Text nestUI;
     private Text radiusTextComponent;
     private Text foundObjectText;
+    private Text bonusActivatedText;
     private Text scoreEndValueTxt;
     private Text timerText;
     private float popUp = 0;
@@ -32,6 +33,7 @@ using UnityEngine.UI;
             scoreEndValueTxt = Canvas.Find("DigUI/EndScreen/EndScoreValue").GetComponent<Text>();
             radiusTextComponent = Canvas.Find("DigUI/DigItems/RadiusTxt").GetComponent<Text>();
             foundObjectText = Canvas.Find("DigUI/DigItems/FoundObjectTxt").GetComponent<Text>();
+            bonusActivatedText = Canvas.Find("DigUI/DigItems/BonusActivatedTxt").GetComponent<Text>();
             timerText = Canvas.Find("DigUI/DigItems/CountdownValue").GetComponent<Text>();
             scoreText = Canvas.Find("DigUI/DigItems/ScoreTxtValue").GetComponent<Text>();
             nestText = Canvas.Find("DigUI/DigItems/NestTxtValue").GetComponent<Text>();
@@ -56,6 +58,7 @@ using UnityEngine.UI;
         digUI.SetActive(false);
         radiusTextComponent.enabled = false;
         foundObjectText.enabled = false;
+        bonusActivatedText.enabled = false;
         scoreText.text = 0.ToString();
         scoreEndValueTxt.text = 0.ToString();
         nestText.text = HotAndColdController.nestCount.ToString();
@@ -83,6 +86,8 @@ using UnityEngine.UI;
         if (HotAndColdController.objectFound == true)
         {
             ShowFoundObjText();
+            if (HotAndColdController.BonusForCanvas)
+                ShowBonusActivatedText();
             popUpadd();
         }
         if (HotAndColdController.radiusSet == true)
@@ -96,6 +101,7 @@ using UnityEngine.UI;
             HideFoundObjText();
             popUp = 0;
         }
+        
             UpdateNestCountText();//NEED TO BE CHANGED
     }
     //------------------- EndScreen Void ----------------//
@@ -149,6 +155,8 @@ using UnityEngine.UI;
     {
         foundObjectText.enabled = false;
         HotAndColdController.objectFound = false;
+        HotAndColdController.BonusForCanvas = false;
+        HideBonusActivatedText();
     }
     void UpdateNestCountText()
     {
@@ -157,6 +165,14 @@ using UnityEngine.UI;
     void HideNestCountText()
     {
 
+    }
+    void ShowBonusActivatedText()
+    {
+        bonusActivatedText.enabled = true;
+    }
+    void HideBonusActivatedText()
+    {
+        bonusActivatedText.enabled = false;
     }
     //------------------- popUpadd Void ----------------//
     void popUpadd()

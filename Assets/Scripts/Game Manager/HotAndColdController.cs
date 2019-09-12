@@ -24,6 +24,7 @@ class HotAndColdController : GameRulesController, ControllersTemplate
     public bool radiusSet = false; //Used for script RadiusText
     private bool upgrade = false;  //BonusTime and Speed given on found x_amount of found objects
     private bool diggingObject = false;
+    public bool BonusForCanvas = false;
     //------------------- Properties ----------------//
     public int ruleID { get; set; }
 
@@ -63,7 +64,9 @@ class HotAndColdController : GameRulesController, ControllersTemplate
     //------------------- Update Void ----------------//
     void Update()
     {
-        if ((Input.GetButtonDown("Scan") || buttonpressed) && (movement.enabled || stopWhileDigging == 0) && !diggingFunction.belowground && movement.OnGround())
+        if ((Input.GetButtonDown("Scan") || buttonpressed) && 
+            (movement.enabled || stopWhileDigging == 0) && 
+            !diggingFunction.belowground && movement.OnGround())
         {
             DetermineRadius();
             if (StartDigging())
@@ -91,6 +94,7 @@ class HotAndColdController : GameRulesController, ControllersTemplate
             movement.values["speed"] *= localdatabase[0].Bonus[0].movementspeed;
             diggingspeed *= localdatabase[0].Bonus[0].diggingspeed;
             upgrade = false;
+            BonusForCanvas = true;
         }
         calculateNests();
     }
@@ -188,16 +192,16 @@ class HotAndColdController : GameRulesController, ControllersTemplate
         {
             case 0:
             case 1:
-                radiusText = "Very Cold";
+                radiusText = "Vrlo Hladno";
                 break;
             case 2:
-                radiusText = "Cold";
+                radiusText = "Hladno";
                 break;
             case 3:
-                radiusText = "Hot";
+                radiusText = "Toplo";
                 break;
             case 4:
-                radiusText = "Very Hot";
+                radiusText = "Vrelo";
                 break;
             case 5:
                 radiusText = dighardness.ToString();

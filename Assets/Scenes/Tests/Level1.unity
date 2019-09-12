@@ -20133,6 +20133,158 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224362465211419084, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224793581266106970, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224583971365605052, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149694879569394, guid: 4ee92d6bb50ba0742acb0dfda1afcb45, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114171366665057802, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114171366665057802, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: Osvojen Bod
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082951124108043036, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082951124108043036, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443685457566421579, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443685457566421579, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443685457566421579, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: Bonus Aktiviran
+      objectReference: {fileID: 0}
+    - target: {fileID: 114033657121769730, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Bodovi:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114033657121769730, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751255788620870, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Vrijeme:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751255788620870, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 68099193, guid: 4ee92d6bb50ba0742acb0dfda1afcb45, type: 3}
+      propertyPath: m_Text
+      value: 'Aktiviraj: DevTools'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114062504730280106, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: Meni
+      objectReference: {fileID: 0}
+    - target: {fileID: 114062504730280106, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558597079566604, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Gnijezda:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558597079566604, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224490404096338922, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -30.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 224490404096338922, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 385.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 181100950, guid: 4ee92d6bb50ba0742acb0dfda1afcb45, type: 3}
+      propertyPath: m_Text
+      value: 'Aktiviraj: DevTools'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114928729290834466, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: Brzina Neprijatelja
+      objectReference: {fileID: 0}
+    - target: {fileID: 114355057766624008, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Tip Kretanja: A'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114355801237904846, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: "Brzina Igra\u010Da"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114047102762587476, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: "Kona\u010Dan Broj Bodova:"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114047102762587476, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114190481382477158, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: Vrijeme je isteklo
+      objectReference: {fileID: 0}
+    - target: {fileID: 114067360125247510, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: "Poku\u0161aj Ponovno"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114215190156024398, guid: 4ee92d6bb50ba0742acb0dfda1afcb45,
+        type: 3}
+      propertyPath: m_Text
+      value: Kraj
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee92d6bb50ba0742acb0dfda1afcb45, type: 3}
 --- !u!1 &1903871831
